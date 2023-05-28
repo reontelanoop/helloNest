@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - echo -e "machine github.com\n  login $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" > ~/.netrc
+  - echo -e "machine github.com\n  login $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" > ~/.netrc
   - git lfs pull
   - docker build -t anoop/react-ci .
 
